@@ -1,0 +1,151 @@
+* { margin: 0; }
+.body{
+    font-family: 'Caveat', cursive;
+    font-family: 'Kalnia', serif;
+}
+.container{
+    margin: 0px 166px;
+}
+.header{
+    background-image: url(fon3.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.header-line{
+    padding-top: 50px;
+    display:flex;
+    align-items: center;
+}
+.nav-item{
+    color: #fff;
+    text-decoration: none; 
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Caveat', cursive;
+    margin-left: 40px; 
+}
+.header-down{
+    
+}
+.header-title{
+    color: #DDA0DD;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 100px;
+    margin: 130px 0px;
+    text-align: center;
+    
+}
+.card-holder{
+    display: flex;
+    justify-content: center;
+    
+}
+.cards{
+    font-family: 'Roboto Mono', monospace;
+}
+.card{
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 359px;
+    margin-right: 39px;
+    background-color: #fff;
+    margin-top: -80px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    
+}
+.card-dis{
+    text-align: center;
+    margin-top: 35px;
+}
+.history{
+    margin-top: 166px;
+}
+.history-title{
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    font-size: 110px;
+    width: 444px;
+    text-align: center;
+}
+.history-dis{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 16px;
+    width: 444px;
+    text-align: center;
+    border: 3px dashed #000000;
+    margin-top: 21px;
+}
+.history-image{
+    position: relative;
+    
+    
+}
+.history-holder{
+    display: flex;
+    justify-content: space-between;
+}
+.image1{
+    position: absolute;
+    z-index: 500;
+    top:200px;
+    left:-500px;
+    
+}
+.image2{
+    position: absolute;
+    z-index: 0;
+    top:54px;
+    left:-800px;
+}
+.image3{
+    position: absolute;
+    z-index: 999;
+    top:250px;
+    left:-850px;
+}
+.info{
+    background-image: url(fon5.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.info-title{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 100px;
+    margin: 100px 0px;
+    text-align: center;
+}
+.info-text{
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+    font-weight: 700;
+    text-align: center;
+}
+.comand-title{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin: 10px 0px
+}
+.info-command{
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+    font-weight: 700;
+    display: flex;
+}
+.info-command1{
+    text-align: center;
+}
+.info-command2{
+    margin-left:700px;
+    text-align: center
+    
+}
